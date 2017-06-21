@@ -47,9 +47,21 @@
 /*//modal*/
 
 #contactModal,
-#careersModal {
-	background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('../img/sloth-unicorn-group-image.jpg');
+#exhibitionModal,
+#aboutModal {
+	background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../img/image-2.jpg');
 	background-size: cover;
+}
+
+.modal-content {
+	background-color: transparent;
+	border: 0;
+	box-shadow: none;
+	color: #fff;
+}
+
+.modal-content h4 {
+	text-align: center;
 }
 
 .modal-input {
@@ -73,17 +85,17 @@
 
 /*// custom button*/
 
-/*.sug-button {
-	background-color: $white;
-	border-color: $white;
-	color: $black;
+.sug-button {
+	border-color: #fff;
+	background-color: transparent;
+	color: #fff;
+}
 
-	&:hover {
-		border-color: $white;
-		background-color: transparent;
-		color: $white;
-	}
-}*/
+.sug-button:hover {
+	background-color: #fff;
+	border-color: #fff;
+	color: #000;
+}
 
 .btn:focus,
 .btn:active,
